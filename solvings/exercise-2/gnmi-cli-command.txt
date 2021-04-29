@@ -1,0 +1,346 @@
+***************************
+REQUEST
+path {
+}
+type: CONFIG
+encoding: PROTO
+
+***************************
+***************************
+RESPONSE
+notification {
+  update {
+    path {
+    }
+    val {
+      any_val {
+        type_url: "type.googleapis.com/openconfig.Device"
+        value: 
+component {
+  name: "leaf1"
+  component {
+    chassis {
+      platform: OPENCONFIGHERCULESPLATFORMPLATFORMTYPE_GENERIC
+    }
+  }
+}
+component {
+  name: ":lc-1"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    id {
+      value: "1"
+    }
+  }
+}
+component {
+  name: "leaf1-eth1"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth1"
+    }
+    port {
+      port_id {
+        value: 1
+      }
+    }
+  }
+}
+component {
+  name: "leaf1-eth2"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth2"
+    }
+    port {
+      port_id {
+        value: 2
+      }
+    }
+  }
+}
+component {
+  name: "leaf1-eth3"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth3"
+    }
+    port {
+      port_id {
+        value: 3
+      }
+    }
+  }
+}
+component {
+  name: "leaf1-eth4"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth4"
+    }
+    port {
+      port_id {
+        value: 4
+      }
+    }
+  }
+}
+component {
+  name: "leaf1-eth5"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth5"
+    }
+    port {
+      port_id {
+        value: 5
+      }
+    }
+  }
+}
+component {
+  name: "leaf1-eth6"
+  component {
+    linecard {
+      slot_id {
+        value: "1"
+      }
+    }
+    transceiver {
+      channel {
+        index: 1
+      }
+    }
+    integrated_circuit {
+      node_id {
+        value: 1
+      }
+    }
+    subcomponent {
+      name: "leaf1-eth6"
+    }
+    port {
+      port_id {
+        value: 6
+      }
+    }
+  }
+}
+interface {
+  name: "leaf1-eth1"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 1
+    }
+    ifindex {
+      value: 1
+    }
+  }
+}
+interface {
+  name: "leaf1-eth2"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 2
+    }
+    ifindex {
+      value: 2
+    }
+  }
+}
+interface {
+  name: "leaf1-eth3"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 3
+    }
+    ifindex {
+      value: 3
+    }
+  }
+}
+interface {
+  name: "leaf1-eth4"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 4
+    }
+    ifindex {
+      value: 4
+    }
+  }
+}
+interface {
+  name: "leaf1-eth5"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 5
+    }
+    ifindex {
+      value: 5
+    }
+  }
+}
+interface {
+  name: "leaf1-eth6"
+  interface {
+    enabled {
+      value: true
+    }
+    physical_channel {
+      value: 1
+    }
+    ethernet {
+      port_speed: OPENCONFIGIFETHERNETETHERNETSPEED_SPEED_10GB
+      auto_negotiate {
+      }
+    }
+    id {
+      value: 6
+    }
+    ifindex {
+      value: 6
+    }
+  }
+}
+
+      }
+    }
+  }
+}
+
+***************************
